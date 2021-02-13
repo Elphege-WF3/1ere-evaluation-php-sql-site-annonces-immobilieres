@@ -41,7 +41,6 @@ function afficherMessage()
     }
 }
 
-
 function afficherAnnonceAvecLien() 
 {
     $tabLigne = lireTable("advert", "datePublication DESC");

@@ -1,5 +1,4 @@
 <?php
-
 // ETAPES
 // VERIFIER SI L'IDENTIFIANT DU FORMULAIRE EST ajout-annonce
 // FILTRER LES INFOS DU FORMULAIRE ajout-annonce

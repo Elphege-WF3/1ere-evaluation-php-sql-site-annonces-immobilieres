@@ -1,5 +1,4 @@
 <?php 
-
 // MODEL (INFOS)
 // MATIERE PREMIERE
 $titre = "Annonce";

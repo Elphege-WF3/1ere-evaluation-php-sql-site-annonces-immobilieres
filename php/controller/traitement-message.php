@@ -1,5 +1,4 @@
 <?php
-
 $formIdentifiant = filtrer("formIdentifiant");
 if ($formIdentifiant == "ajout-message")
 {

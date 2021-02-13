@@ -14,5 +14,6 @@
         <?php require_once "php/controller/traitement-message.php" ?>
         </div>
     </form>
+    
 </section>
 

@@ -1,4 +1,3 @@
-
 <section>
     <h2>Voici le formulaire pour ajouter une annonce immobilière</h2>
 </section>
