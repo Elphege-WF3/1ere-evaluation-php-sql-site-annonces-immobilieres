@@ -3,13 +3,14 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 10 déc. 2020 à 15:05
+-- Généré le : Dim 21 fév. 2021 à 14:56
 -- Version du serveur :  10.4.14-MariaDB
 -- Version de PHP : 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -43,21 +44,21 @@ CREATE TABLE `advert` (
 --
 
 INSERT INTO `advert` (`id`, `title`, `description`, `postal_code`, `city`, `type`, `price`, `reservation_message`, `datePublication`) VALUES
-(17, 'TITRE 1', 'Description 1', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:34:28'),
-(18, 'TITRE 2', 'DESCRIPTION 2', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:35:11'),
-(19, 'TITRE 3', 'Description 3', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:35:34'),
-(20, 'TITRE 4', 'Description 4', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:35:59'),
-(21, 'TITRE 5', 'Description 5', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:36:21'),
-(22, 'TITRE 6', 'Description 6', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:36:47'),
-(23, 'TITRE 7', 'Description 7', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:37:06'),
-(24, 'TITRE 8', 'Description 8', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:37:29'),
-(25, 'TITRE 9', 'Description 9', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:37:50'),
-(26, 'TITRE 10', 'Description 10', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:38:11'),
-(27, 'TITRE 11', 'Description 11', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:38:32'),
-(28, 'TITRE 12', 'Description 12', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:38:52'),
-(29, 'TITRE 13', 'Description 13', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:39:11'),
-(30, 'TITRE 14', 'Description 14', '13001', 'MARSEILLE', 'Location', '123456', '', '2020-12-10 14:39:32'),
-(31, 'TITRE 15', 'Description 15', '13001', 'MARSEILLE', 'Vente', '123456', '', '2020-12-10 14:39:59');
+(17, 'ANNONCE IMMOBILIERE 1', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:34:28'),
+(18, 'ANNONCE IMMOBILIERE 2', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:35:11'),
+(19, 'ANNONCE IMMOBILIERE 3', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:35:34'),
+(20, 'ANNONCE IMMOBILIERE 4', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:35:59'),
+(21, 'ANNONCE IMMOBILIERE 5', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:36:21'),
+(22, 'ANNONCE IMMOBILIERE 6', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:36:47'),
+(23, 'ANNONCE IMMOBILIERE 7', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:37:06'),
+(24, 'ANNONCE IMMOBILIERE 8', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:37:29'),
+(25, 'ANNONCE IMMOBILIERE 9', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:37:50'),
+(26, 'ANNONCE IMMOBILIERE 10', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:38:11'),
+(27, 'ANNONCE IMMOBILIERE 11', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:38:32'),
+(28, 'ANNONCE IMMOBILIERE 12', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:38:52'),
+(29, 'ANNONCE IMMOBILIERE 13', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:39:11'),
+(30, 'ANNONCE IMMOBILIERE 14', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:39:32'),
+(31, 'ANNONCE IMMOBILIERE 15', 'DESCRIPTION', 'CODE POSTAL', 'VILLE', 'VENTE', '199999 €', '', '2020-12-10 14:39:59');
 
 --
 -- Index pour les tables déchargées
